@@ -34,6 +34,7 @@ footer,
 
 .action {
     background-color: #3882F6;
+    border-radius: 5px;
 }
 
 header {
@@ -76,6 +77,10 @@ ul {
     justify-content: center;
 }
 
+.square {
+    border-radius: 5px;
+}
+
 #img-wrapper,
 #caption-wrapper {
     display: flex;
@@ -90,6 +95,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     width: 150px;
+    justify-content: center;
+    text-align: center;
 }
 
 .quote {
@@ -144,3 +151,4 @@ footer {
     justify-content: center;
     padding: 15px;
 }
+
